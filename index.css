@@ -1,0 +1,69 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #282D35;
+    font-family: 'PT Sans', sans-serif;
+    color: white;
+    margin: 10px 100px;
+    border: 2px solid whitesmoke;
+    padding: 8px 14px;
+}
+
+p {
+    font-size: 18px;
+}
+
+h2 {
+    color: cornflowerblue;
+}
+
+.hero {
+    background-image: url("img/genji.png");
+    background-size: cover;
+    padding: 200px 100px 50px 200px;
+}
+.hero--name {
+    font-size: 100px;
+    color: lightyellow;
+    font-family: 'Inter', sans-serif;
+}
+
+.role--damage {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.role--text {
+    padding: 0 200px 10px 10px;
+}
+
+.weapons {
+    display: flex;
+    background-color: dimgrey;
+}
+
+.weapons--logo {
+    padding-top: 25px;
+    padding-left: 40px;
+}
+
+.weapons--text {
+    padding-left: 100px;
+}
+
+.logo{
+    background-color: forestgreen;
+    text-align: center;
+    padding: 20px 50px;
+    margin: 10px;
+}
+
+.logo > img {
+    height: 100px;
+}
+
+.ability {
+    display: flex;
+}
